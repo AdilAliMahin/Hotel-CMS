@@ -7,6 +7,7 @@ body {
 	height: auto;
 	font-size: 14px;
 	font-family: 'Archivo Black', sans-serif;
+	overflow-x: hidden;	
 	/*font-family: 'Nunito', sans-serif;*/
 }
 * {
