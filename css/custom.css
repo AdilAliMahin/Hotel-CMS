@@ -395,6 +395,7 @@ input[type="checkbox"]{
 }
 .hotel-content-left-aside-link h1{
 	letter-spacing: -1px;
+	line-height: 1em;
 }
 	
 
@@ -485,9 +486,771 @@ input[type="checkbox"]{
 .text-bold { font-weight: bold; }	
 
 
+/*--------------media queries starts here---------------*/
+@media only screen and (max-width: 1024px) {
+/*--------------media queries menu page-------------*/
+.menu-content-left-aside-wrapper {
+	width: 40%;
+}
+
+.menu-content-left-aside {
+    width: 82%;
+}
+
+.menu-content-heading {
+	font-size: 14px;
+}
+
+.menu-content-heading h3 {
+    letter-spacing: 5px;
+}
+
+.menu-content-left-aside-link a {
+    font-size: 12px;
+}
+
+.menu-content-right-aside-wrapper {
+    width: 60%;
+}
+
+.menu-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 12%;	
+}
+
+.menu-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.menu-content-right-aside-top-detail p {
+    font-size: 22px;
+}
+
+.extra-H {
+    height: 120px;
+}
+
+.menu-content-right-aside-sub-detail {
+    font-size: 19px;
+}
+/*--------------media queries hotel page-------------*/
+.green-stripe-text {
+    padding: 2% 0% 2% 1.8%;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+ 
+.hotel-content-left-aside-wrapper {
+	width: 18%;
+}
+
+.hotel-content-left-aside {
+    width: 100%;
+}
+
+.hotel-content-heading {
+	font-size: 22px;
+}
+
+.hotel-img-resize {
+    width: 130px;
+}
+
+.LW-img {
+    width: 80px !important;
+}
+
+.hotel-content-left-aside-link a {
+    font-size: 12px;
+}
+
+.hotel-content-right-aside-wrapper {
+    width: 82%;
+}
+
+.hotel-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 12%;	
+}
+
+.hotel-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.hotel-content-right-aside-top-detail p {
+    font-size: 19px;
+}
+
+.hotel-content-right-aside-sub-detail {
+    font-size: 18px;
+}
+
+.prioroty-text-heading {
+      font-size: 14px;
+}
+
+.hotel-content-right-aside-prioroty-text {
+    font-size: 15px;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+/*--------------media queries menu page-------------*/
+.menu-content-left-aside-wrapper {
+	width: 37%;
+}
+
+.menu-content-left-aside {
+    width: 82%;
+}
+
+.menu-content-heading {
+	font-size: 11px;
+}
+
+.menu-content-heading h3 {
+    letter-spacing: 3px;
+}
+
+.menu-content-left-aside-link a {
+    font-size: 9px;
+}
+
+.menu-content-right-aside-wrapper {
+    width: 63%;
+}
+
+.menu-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 10%;	
+}
+
+.menu-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.menu-content-right-aside-top-detail p {
+    font-size: 17px;
+}
+
+.extra-H {
+    height: 100px;
+}
+
+.menu-content-right-aside-sub-detail {
+    font-size: 16px;
+}
+/*--------------media queries hotel page-------------*/
+.green-stripe-text {
+    padding: 2% 0% 2% 1.8%;
+    letter-spacing: 0px;
+    font-size: 12px;
+}
+ 
+.hotel-content-left-aside-wrapper {
+	width: 15%;
+}
+
+.hotel-content-left-aside {
+    width: 100%;
+}
+
+.hotel-content-heading {
+	font-size: 14px;
+}
+
+.hotel-img-resize {
+    width: 80px;
+}
+
+.LW-img {
+    width: 65px !important;
+}
+
+.hotel-content-left-aside-link a {
+    font-size: 12px;
+}
+
+.hotel-content-right-aside-wrapper {
+    width: 85%;
+}
+
+.hotel-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 12%;	
+}
+
+.hotel-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.hotel-content-right-aside-top-detail p {
+    font-size: 15px;
+}
+
+.hotel-content-right-aside-sub-detail {
+    font-size: 14px;
+}
+
+.prioroty-text-heading {
+      font-size: 11px;
+	  padding: 4% 0% 7% 0%;
+}
+
+.hotel-content-right-aside-prioroty-text {
+    font-size: 11px;
+	padding: 4% 0% 0% 8%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 554px) {
+/*--------------media queries login page-------------*/
+.main-container {
+	width: 95%;	
+}
+
+.top-header-links ul li {
+    width: 166px;
+}
+
+.top-header-links ul li a {
+	font-size: 18px;
+	margin: 0% 25%;	
+}
+
+.sign-in-heading{
+	font-size: 20px;
+}
+
+.input-email {
+	font-size: 22px;
+}
+
+.input-type-password {
+	width: 52%;
+	font-size: 22px;	
+}
+
+.forget-password {
+    font-size: 14px;
+}
+
+.login-btn {
+	width: 160px;
+}
+
+.login-btn a {
+	font-size: 18px;
+}
+
+.sign-up-btn a {
+	font-size: 18px;
+	padding: 7% 6%;
+}
+/*--------------media queries menu page-------------*/
+.menu-content-left-aside-wrapper {
+	width: 37%;
+}
+
+.menu-content-left-aside {
+    width: 82%;
+}
+
+.menu-content-heading {
+	font-size: 9px;
+}
+
+.menu-content-heading h3 {
+    letter-spacing: 1px;
+}
+
+.menu-content-left-aside-link {
+    padding: 10% 0%;
+}
+
+.menu-content-left-aside-link a {
+    font-size: 6px;
+}
+
+.border-dashed-top {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 2px;
+}
+
+.border-dashed-bottom {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 2px;
+}
+
+.menu-content-right-aside-wrapper {
+    width: 63%;
+}
+
+.menu-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 10%;	
+}
+
+.menu-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 5%;
+}
+
+.menu-content-right-aside-top-detail p {
+    font-size: 11px;
+}
+
+.extra-H {
+    height: 60px;
+}
+
+.menu-content-right-aside-sub-detail {
+    font-size: 11px;
+}
+
+/*--------------media queries hotel page-------------*/
+.green-stripe-text {
+    padding: 2% 0% 2% 1%;
+    letter-spacing: 0px;
+    font-size: 9.5px;
+}
+ 
+.hotel-content-left-aside-wrapper {
+	width: 15%;
+}
+
+.hotel-content-left-aside {
+    width: 100%;
+}
+
+.hotel-content-heading {
+	font-size: 10px;
+}
+
+.hotel-content-left-aside-link h1 {
+    letter-spacing: 0px;
+    line-height: 1em;
+}
+
+.hotel-img-resize {
+    width: 60px;
+}
+
+.LW-img {
+    width: 45px !important;
+}
+
+.hotel-content-right-aside-wrapper {
+    width: 85%;
+}
+
+.hotel-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 9%;	
+}
+
+.hotel-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 9%;
+}
+
+.hotel-content-right-aside-top-detail p {
+    font-size: 10px;
+}
+
+.hotel-content-right-aside-sub-detail {
+    font-size: 10px;
+}
+
+.prioroty-text-heading {
+      font-size: 9px;
+	  padding: 4% 0% 7% 0%;
+}
+
+.hotel-content-right-aside-prioroty-text {
+    font-size: 9px;
+	padding: 4% 0% 0% 8%;
+}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+/*--------------media queries login page-------------*/
+.main-container {
+	width: 90%;	
+}
+
+.top-header-links ul li {
+    width: 140px;
+}
+
+.top-header-links ul li a {
+	font-size: 15px;
+	margin: 0% 20%;	
+}
+
+.sign-in-heading{
+	font-size: 16px;
+}
+
+.input-email {
+	font-size: 18px;
+}
+
+.input-type-password {
+	width: 50%;
+	font-size: 18px;	
+}
+
+.forget-password {
+    font-size: 12px;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+}
+
+.remember-me {
+    font-size: 19px;
+}
+
+.login-btn {
+	width: 122px;	
+}
+
+.login-btn a {
+	font-size: 16px;
+}
+
+.sign-up-btn {
+	width: 85px;	
+}
+
+.sign-up-btn a {
+	font-size: 16px;
+	padding: 7% 5%;
+}
+
+/*--------------media queries menu page-------------*/
+.menu-content-left-aside-wrapper {
+	width: 37%;
+}
+
+.menu-content-left-aside {
+    width: 82%;
+}
+
+.menu-content-heading {
+	font-size: 8px;
+}
+
+.menu-content-heading h3 {
+    letter-spacing: 0px;
+}
+
+.menu-content-left-aside-link {
+    padding: 10% 0%;
+}
+
+.menu-content-left-aside-link a {
+    font-size: 5px;
+}
+
+.border-dashed-top {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 2px;
+}
+
+.border-dashed-bottom {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 2px;
+}
+
+.menu-content-right-aside-wrapper {
+    width: 63%;
+}
+
+.menu-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 10%;	
+}
+
+.menu-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.menu-content-right-aside-top-detail p {
+    font-size: 10px;
+}
+
+.extra-H {
+    height: 55px;
+}
+
+.menu-content-right-aside-sub-detail {
+    font-size: 10px;
+}
+/*--------------media queries hotel page-------------*/
+.green-stripe-text {
+    padding: 2% 0% 2% 1%;
+    letter-spacing: 0px;
+    font-size: 8px;
+}
+ 
+.hotel-content-left-aside-wrapper {
+	width: 15%;
+}
+
+.hotel-content-left-aside {
+    width: 100%;
+}
+
+.hotel-content-heading {
+	font-size: 8px;
+}
+
+.hotel-content-left-aside-link h1 {
+    letter-spacing: 0px;
+    line-height: 1em;
+}
+
+.hotel-img-resize {
+    width: 50px;
+}
+
+.LW-img {
+    width: 35px !important;
+}
+
+.hotel-content-right-aside-wrapper {
+    width: 85%;
+}
+
+.hotel-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 9%;	
+}
+
+.hotel-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 9%;
+}
+
+.hotel-content-right-aside-top-detail p {
+    font-size: 8px;
+}
+
+.hotel-content-right-aside-sub-detail {
+    font-size: 8px;
+}
+
+.prioroty-text-heading {
+      font-size: 7px;
+	  padding: 4% 0% 7% 0%;
+}
+
+.hotel-content-right-aside-prioroty-text {
+    font-size: 7px;
+	padding: 4% 0% 0% 8%;
+}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+/*--------------media queries login page-------------*/
+.main-container {
+	width: 90%;	
+}
+.top-header-links ul li {
+    width: 104px;
+}
+.top-header-links ul li a {
+	font-size: 12px;
+    margin: 0% 23%;
+}
+
+.sign-in-heading{
+	font-size: 12px;
+}
+
+.input-email {
+	font-size: 14px;
+}
+
+.input-type-password {
+	width: 48%;
+	font-size: 14px;	
+}
+
+.forget-password {
+    font-size: 9px;
+	padding-bottom: 5%;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.2);
+}
+
+.remember-me {
+    font-size: 12px;
+}
+
+.login-btn {
+	width: 88px;	
+}
+
+.login-btn a {
+	font-size: 12px;
+}
+
+.sign-up-btn {
+	width: 70px;	
+}
+
+.sign-up-btn a {
+	font-size: 12px;
+	padding: 7% 5%;
+}
+
+/*--------------media queries menu page-------------*/
+.menu-content-left-aside-wrapper {
+	width: 37%;
+}
+
+.menu-content-left-aside {
+    width: 82%;
+}
+
+.menu-content-heading {
+	font-size: 7px;
+}
+
+.menu-content-heading h3 {
+    letter-spacing: 0px;
+}
+
+.menu-content-left-aside-link {
+    padding: 10% 0%;
+}
+
+.menu-content-left-aside-link a {
+    font-size: 4.5px;
+}
+
+.border-dashed-top {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 1.5px;
+}
+
+.border-dashed-bottom {
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 1.5px;
+}
+
+.menu-content-right-aside-wrapper {
+    width: 63%;
+}
+
+.menu-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 10%;	
+}
+
+.menu-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 10%;
+}
+
+.menu-content-right-aside-top-detail p {
+    font-size: 7px;
+}
+
+.extra-H {
+    height: 38px;
+}
+
+.menu-content-right-aside-sub-detail {
+    font-size: 7px;
+}
+/*--------------media queries hotel page-------------*/
+.green-stripe-text {
+    padding: 2% 0% 2% 1%;
+    letter-spacing: 0px;
+    font-size: 6px;
+}
+ 
+.hotel-content-left-aside-wrapper {
+	width: 15%;
+}
+
+.hotel-content-left-aside {
+    width: 100%;
+}
+
+.hotel-content-heading {
+	font-size: 6px;
+}
+
+.hotel-content-left-aside-link h1 {
+    letter-spacing: 0px;
+    line-height: 1em;
+}
+
+.hotel-img-resize {
+    width: 40px;
+}
+
+.LW-img {
+    width: 26px !important;
+}
+
+.hotel-content-right-aside-wrapper {
+    width: 85%;
+}
+
+.hotel-content-right-aside-detail-wrapper{
+	width: 80%;
+    margin: 8% 0% 0% 9%;	
+}
+
+.hotel-content-right-aside-top-detail {
+    width: 90%;
+    padding: 7% 9%;
+}
+
+.hotel-content-right-aside-top-detail p {
+    font-size: 6.5px;
+}
+
+.hotel-content-right-aside-sub-detail {
+    font-size: 6.5px;
+}
+
+.prioroty-text-heading {
+      font-size: 6px;
+	  padding: 4% 0% 7% 0%;
+}
+
+.hotel-content-right-aside-prioroty-text {
+    font-size: 6px;
+	padding: 2% 0% 0% 8%;
+}
 
 
 
+}
 
 
 
